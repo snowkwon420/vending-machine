@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="Kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vending-machine</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="logo"><img src="./img/logo2.png" alt="" /></header>
+    <!-- //header -->
+
+    <!-- section -->
+    <section>
+      <!-- article left -->
+      <article class="left">
+        <!-- 메뉴구성 -->
+        <div class="menu item">
+          <button>
+            <div class="menu-item-img red"></div>
+            <div class="name">Original_Cola</div>
+            <div class="price">1000원</div>
+          </button>
+          <button>
+            <div class="menu-item-img violet"></div>
+            <div class="name">Violet_Cola</div>
+            <div class="price">1000원</div>
+          </button>
+          <button>
+            <div class="menu-item-img yellow"></div>
+            <div class="name">Yellow_Cola</div>
+            <div class="price">1000원</div>
+          </button>
+          <button>
+            <div class="menu-item-img sky"></div>
+            <div class="name">Cool_Cola</div>
+            <div class="price">1000원</div>
+          </button>
+          <button>
+            <div class="menu-item-img green"></div>
+            <div class="name">Green_Cola</div>
+            <div class="price">1000원</div>
+          </button>
+          <button>
+            <div class="menu-item-img orange"></div>
+            <div class="name">Orange_Cola</div>
+            <div class="price">1000원</div>
+          </button>
+        </div>
+        <!-- 결제구성 -->
+        <div class="payment">
+          <div class="payment-balance">
+            <div class="payment-balance-left">잔액 :</div>
+            <div class="payment-balance-right">1,000원</div>
+          </div>
+          <button class="payment-button">거스름돈 반환</button>
+          <input class="payment-howmuch" type="number" name="input" placeholder="입금액 입력"></input>
+          <button class="payment-button">입금</button>
+          
+          <div class="payment-product">
+            <div class="product-inner">
+                <div class="product-img red"></div>
+                <p class="product-name">Original_Cola</p>
+                <div class="product-quantity">1</div> 
+            </div >
+          </div>
+          <button class="payment-get">획득</button>
+        </div>
+      </article>
+      <!-- //article left -->
+
+      <!-- article right -->
+      <article class="right">
+        <!-- 소지금 -->
+        <div class="money">
+          <div class="inner">
+            <div class="inner-left">소지금 :</div>
+            <div class="inner-right">25,000 원</div>
+          </div>
+        </div>
+
+        <!-- 획득한 음료 -->
+        <div class="drink">
+          <h3>획득한 음료</h3>
+          <div class="drink-list-wrapper">
+            <div class="drink-item">
+              <div class="drink-item-img red"></div>
+              <p class="name">Original_Cola</p>
+              <div class="item-quantity">1</div>
+            </div>
+            <div class="drink-item">
+              <div class="drink-item-img yellow"></div>
+              <p class="name">Yellow_Cola</p>
+              <div class="item-quantity">4</div>
+            </div>
+            <div class="drink-item">
+              <div class="drink-item-img green"></div>
+              <p class="name">Green_Cola</p>
+              <div class="item-quantity">1</div>
+            </div>
+            <div class="drink-item">
+              <div class="drink-item-img violet"></div>
+              <p class="name">Violet_Cola</p>
+              <div class="item-quantity">1</div>
+            </div>
+          </div>
+          <p class="total">총금액 : 9,000원</p>
+        </div>
+        <!--  //획득한 음료 -->
+      </article>
+      <!-- //article right -->
+    </section>
+    <!-- //section -->
+  </body>
+</html>

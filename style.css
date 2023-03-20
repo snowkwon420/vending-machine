@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  background: #eae8fe;
+}
+
+header {
+  height: 204px;
+  width: 436px;
+  margin: 0 auto;
+}
+
+section {
+  /* box-shadow: inset 0 0 10px red; */
+  height: 545px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 43px;
+  gap: 23px;
+}
+
+article {
+  width: 360px;
+}
+
+article.left {
+  background: #fff;
+  /* display: flex; */
+}
+
+article.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* right */
+
+.menu {
+  margin: 31px 27px 20px 27px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  /* box-shadow: inset 0 0 10px red; */
+}
+
+.menu button {
+  width: 94px;
+  height: 130px;
+  background: #fff;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.menu-item-img {
+  width: 36px;
+  height: 65px;
+  background-size: contain;
+}
+
+.price {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  width: 70px;
+  height: 22px;
+  background: #6327fe;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment {
+  margin: 0 27px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.payment-balance {
+  width: 200px;
+  height: 33px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.payment-balance-left {
+  width: 47px;
+  height: 20px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.payment-balance-right {
+  width: 47px;
+  height: 20px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.payment-button {
+  width: 94px;
+  height: 33px;
+  background: #fff;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+  border: none;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.payment-howmuch {
+  padding: 0;
+  width: 198px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.payment-product {
+  width: 200px;
+  height: 106px;
+  background: #eae8fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  gap: 6px;
+}
+
+.product-inner {
+  height: 46px;
+  width: 170px;
+  margin-top: 10px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.product-img {
+  height: 33px;
+  width: 18px;
+  background-size: contain;
+  margin-left: 10px;
+}
+
+.product-name {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+}
+
+.product-quantity {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.payment-get {
+  height: 106px;
+  width: 94px;
+  background: #6327fe;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.money {
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 306px;
+  height: 32px;
+  background: #eae8fe;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-left {
+  position: relative;
+  top: 6px;
+  left: 10px;
+  align-items: center;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Nono Sans KR";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inner-right {
+  font-size: 14px;
+  position: relative;
+  top: 6px;
+  right: 10px;
+  font-family: "Nono Sans KR";
+  font-style: normal;
+  text-align: right;
+  line-height: 20px;
+  font-weight: 700;
+  height: 20px;
+}
+
+.drink {
+  background: #fff;
+  height: 474px;
+}
+
+.drink h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.drink-list-wrapper {
+  margin: 0 auto;
+  width: 306px;
+  height: 364px;
+  background: #eae8fe;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+  align-items: center;
+  gap: 6px;
+  overflow-y: scroll;
+  /* box-shadow: inset 0 0 10px red; */
+}
+
+/* 스크롤바 보이게하는법을 모르겠어요..ㅠㅠ */
+.drink-list-wrapper::-webkit-scrollbar {
+  width: 3px;
+}
+
+.drink-item {
+  height: 46px;
+  width: 276px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.drink-item-img {
+  width: 18px;
+  height: 33px;
+  margin-left: 10px;
+  background-size: contain;
+}
+
+.red {
+  background-image: url(./img/cola-red.svg);
+}
+
+.yellow {
+  background-image: url(./img/yellow.svg);
+}
+.green {
+  background-image: url(./img/green.svg);
+}
+
+.violet {
+  background-image: url(./img/violet.svg);
+}
+
+.orange {
+  background-image: url(./img/orange.svg);
+}
+
+.sky {
+  background-image: url(./img/skyblue.svg);
+}
+.drink .total {
+  text-align: right;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 27px;
+  text-align: right;
+}
+
+.name {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.item-quantity {
+  width: 30px;
+  height: 30px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  text-align: center;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
